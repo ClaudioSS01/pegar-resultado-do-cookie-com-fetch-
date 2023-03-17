@@ -1,5 +1,6 @@
 # pegar-resultado-do-cookie-com-fetch-
 pegar resultado do cookie com fetch
+```
 // Define a função para extrair o valor do cookie
 function extrairValorDoCookie(result, nomeDoCookie) {
   // Extrai todos os cookies da resposta do fetch
@@ -19,3 +20,4 @@ const resultadoFetch = fetch('https://exemplo.com').then(response => {
   const valorEspecifico = extrairValorDoCookie(data, 'nome-do-cookie');
   // Faça algo com o valor do cookie retornado
 });
+```
